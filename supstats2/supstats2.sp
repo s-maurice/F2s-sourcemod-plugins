@@ -99,6 +99,10 @@ Release notes:
 - Fixed unnecessary tournament restart when server is almost empty
 
 
+---- 2.6.2 (08/09/2025) ----
+- Added accuracy logs for alternative scout weapons - by s-maurice
+
+
 TODO:
 - Use GetGameTime() instead of GetEngineTime()?
 - Write comments in code :D
@@ -120,7 +124,7 @@ TODO:
 #undef REQUIRE_PLUGIN
 #include <updater>
 
-#define PLUGIN_VERSION "2.6.1"
+#define PLUGIN_VERSION "2.6.2"
 #define UPDATE_URL		"https://sourcemod.krus.dk/supstats2/update.txt"
 
 #define NAMELEN 64

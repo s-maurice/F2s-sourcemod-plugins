@@ -229,11 +229,15 @@ public void OnPluginStart() {
 	g_tShotTypes.SetValue("tf_projectile_healing_bolt", SHOT_HEALINGBOLT);
 	
 	g_tShotTypes.SetValue("tf_weapon_scattergun", SHOT_HITSCAN);
+	g_tShotTypes.SetValue("tf_weapon_pep_brawler_blaster", SHOT_HITSCAN);
+    g_tShotTypes.SetValue("tf_weapon_handgun_scout_primary", SHOT_HITSCAN);
+    g_tShotTypes.SetValue("tf_weapon_soda_popper", SHOT_HITSCAN);
 	g_tShotTypes.SetValue("tf_weapon_shotgun_soldier", SHOT_HITSCAN);
 	g_tShotTypes.SetValue("tf_weapon_shotgun_primary", SHOT_HITSCAN);
 	g_tShotTypes.SetValue("tf_weapon_shotgun_hwg", SHOT_HITSCAN);
 	g_tShotTypes.SetValue("tf_weapon_shotgun_pyro", SHOT_HITSCAN);
 	g_tShotTypes.SetValue("tf_weapon_pistol_scout", SHOT_HITSCAN);
+	g_tShotTypes.SetValue("tf_weapon_handgun_scout_secondary", SHOT_HITSCAN);
 	g_tShotTypes.SetValue("tf_weapon_pistol", SHOT_HITSCAN);
 	g_tShotTypes.SetValue("tf_weapon_smg", SHOT_HITSCAN);
 	g_tShotTypes.SetValue("tf_weapon_sniperrifle", SHOT_HITSCAN);
